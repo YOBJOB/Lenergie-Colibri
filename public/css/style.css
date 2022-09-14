@@ -1,3 +1,29 @@
+#body {
+  font-size: 20px;
+}
 
+#body {
+  font-size: 20px;
+}
+
+/*header*/
+.headerProj {
+  height: 200px;
+  width: 100%;
+}
+.headerProj .encadrement {
+  height: 100px;
+  width: 100%;
+  background-color: #19547b;
+}
+.headerProj .encadrement .menuIcone {
+  height: 54px;
+  width: 54px;
+  position: relative;
+  background-color: #ffd89b;
+  border-radius: 50px;
+  top: 20px;
+  left: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */

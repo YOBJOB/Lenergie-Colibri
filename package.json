@@ -10,12 +10,12 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOBJOB/CBD.git"
+    "url": "git+https://github.com/YOBJOB/Lenergie Colibri.git"
   },
-  "author": "\"YOBJOB\"",
+  "author": "\"YOBJOB\"Lenergie Colibri",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YOBJOB/CBD/issues"
+    "url": "https://github.com/YOBJOB/Lenergie Colibri/issues"
   },
-  "homepage": "https://github.com/YOBJOB/CBD#readme"
+  "homepage": "https://github.com/YOBJOB/Lenergie Colibri#readme"
 }
