@@ -16,7 +16,8 @@
   width: 100%;
   background-color: #19547b;
 }
-.headerProj .encadrement .menuIcone {
+
+.menuIcone {
   height: 54px;
   width: 54px;
   position: relative;
@@ -24,6 +25,48 @@
   border-radius: 50px;
   top: 20px;
   left: 40px;
+}
+.menuIcone span {
+  height: 2px;
+  width: 22px;
+  background-color: #19547b;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50px;
+}
+.menuIcone span::before, .menuIcone span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 22px;
+  top: 0;
+  left: 0;
+  transform: translateY(-6px);
+  background-color: #19547b;
+  border-radius: 50px;
+}
+.menuIcone span::after {
+  transform: translateY(6px);
+}
+.menuIcone:hover span::before {
+  transform: translateY(-8px);
+}
+.menuIcone:hover span::after {
+  transform: translateY(8px);
+}
+
+.menuIcone-cross:active span {
+  background: transparent;
+}
+.menuIcone-cross:active span::before {
+  transform: translateY(0) rotate(45deg);
+}
+.menuIcone-cross:active span::after {
+  transform: translateY(0) rotate(-45deg);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,13 +4,5 @@
     .encadrement {
         @include dim(100px);
         background-color: #19547b;
-        .menuIcone {
-            @include dim(54px, 54px);
-            position: relative;
-            background-color: $color-secondary;
-            border-radius: 50px;
-            top: 20px;
-            left: 40px;
-        }
     }
 }
