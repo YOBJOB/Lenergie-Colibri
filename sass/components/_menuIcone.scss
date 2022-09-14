@@ -42,13 +42,20 @@
 
 .menuIcone-cross {
     &:active {
+        width: 150px;
+        height: 250px;
+        border-radius: 20px;
+        border-top-left-radius: 30px;
+
         span {
             background: transparent;
+            top: 27px;
+            left: 27px;
         }
-        span::before{
+        span::before {
             transform: translateY(0) rotate(45deg);
         }
-        span::after{
+        span::after {
             transform: translateY(0) rotate(-45deg);
         }
     }

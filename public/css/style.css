@@ -59,8 +59,16 @@
   transform: translateY(8px);
 }
 
+.menuIcone-cross:active {
+  width: 150px;
+  height: 250px;
+  border-radius: 20px;
+  border-top-left-radius: 30px;
+}
 .menuIcone-cross:active span {
   background: transparent;
+  top: 27px;
+  left: 27px;
 }
 .menuIcone-cross:active span::before {
   transform: translateY(0) rotate(45deg);
