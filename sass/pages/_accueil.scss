@@ -3,7 +3,7 @@
 }
 
 .navig-ul {
-    @include dim(60px);
+    @include dim(70px);
     @include flex;
     @include flex-layout;
     background-color: #19547b;
