@@ -1,3 +1,20 @@
+/*header*/
+.header {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header .boxFoto {
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+.header .boxFoto img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Nhc3MvbGF5b3V0L19oZWFkZXIuc2NzcyIsIi4uLy4uLy4uL3Nhc3MvdXRpbHMvX21peGlucy5zY3NzIiwiLi4vc3R5bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFNBQUE7QUFDQTtFQ2FJLGFEWmE7RUNhYixXQUZ3QjtFQVR4QixhQUFBO0VBQ0EsbUJBRm9CO0VBTXBCLHVCQUR5QjtFQUV6QixtQkFGMEM7QUNBOUM7QUZISTtFQ1NBLGFEUmlCO0VDU2pCLFdBRndCO0VETnBCLGdCQUFBO0FFTVI7QUZMUTtFQUNJLG9CQUFBO0tBQUEsaUJBQUE7QUVPWiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

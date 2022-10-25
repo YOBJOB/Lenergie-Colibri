@@ -1,80 +1,34 @@
-#body {
-  font-size: 20px;
-}
-
-#body {
-  font-size: 20px;
-}
-
 /*header*/
-.headerProj {
-  height: 200px;
+.header {
+  height: 300px;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.headerProj .encadrement {
-  height: 100px;
-  width: 100%;
-  background-color: #19547b;
+.header .boxFoto {
+  height: 70%;
+  width: 50%;
+  overflow: hidden;
 }
-
-.menuIcone {
-  height: 54px;
-  width: 54px;
-  position: relative;
-  background-color: #ffd89b;
-  border-radius: 50px;
-  top: 20px;
-  left: 40px;
+.header .boxFoto img {
+  height: 210px;
+  width: 210px;
+  object-fit: cover;
 }
-.menuIcone span {
-  height: 2px;
-  width: 22px;
-  background-color: #19547b;
-  position: absolute;
-  display: block;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  border-radius: 50px;
+.header .boxTitre {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.menuIcone span::before, .menuIcone span::after {
-  content: "";
-  position: absolute;
-  display: block;
-  height: 2px;
-  width: 22px;
-  top: 0;
-  left: 0;
-  transform: translateY(-6px);
-  background-color: #19547b;
-  border-radius: 50px;
-}
-.menuIcone span::after {
-  transform: translateY(6px);
-}
-.menuIcone:hover span::before {
-  transform: translateY(-8px);
-}
-.menuIcone:hover span::after {
-  transform: translateY(8px);
-}
-
-.menuIcone-cross:active {
-  width: 150px;
-  height: 250px;
-  border-radius: 20px;
-  border-top-left-radius: 30px;
-}
-.menuIcone-cross:active span {
-  background: transparent;
-  top: 27px;
-  left: 27px;
-}
-.menuIcone-cross:active span::before {
-  transform: translateY(0) rotate(45deg);
-}
-.menuIcone-cross:active span::after {
-  transform: translateY(0) rotate(-45deg);
+.header .boxTitre .boxTitre-invisible {
+  height: 0;
+  width: 0;
+  visibility: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
