@@ -1,0 +1,13 @@
+// bouton de navigation principal
+bouton-nav{
+    // border-radius: 30px;
+    font-weight: bold; 
+    @include dim(50px);
+    align-items: center; 
+    border-left: solid $color-contrast-B 2px;
+    box-shadow: 0px 10px 10px darken($color-back, 10%);
+    &:active, &:hover{
+        box-shadow: 0px 10px 20px darken($color-back, 30%);
+        filter: brightness(1.1);
+    }    
+}
