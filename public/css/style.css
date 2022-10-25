@@ -1,3 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: auto;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+body, header, section, figure, footer, div, ul, li, h1, h2, h3, h4, a, p {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  font-weight: unset;
+}
+
+h1, h2 {
+  font-size: 26px;
+  font-family: "Roboto", "sans-serif";
+}
+
+h3, h4, h5, h6 {
+  font-family: "Shrikhand", "sans-serif";
+  font-size: 18px;
+}
+
+p, strong, span, i, a {
+  font-size: 18px;
+  font-family: "Roboto", "sans-serif";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.marg_b_20 {
+  margin-bottom: 20px;
+}
+
+.marg_t_20 {
+  margin-top: 20px;
+}
+
+.bloc {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: auto;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+body, header, section, figure, footer, div, ul, li, h1, h2, h3, h4, a, p {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  font-weight: unset;
+}
+
+h1, h2 {
+  font-size: 26px;
+  font-family: "Roboto", "sans-serif";
+}
+
+h3, h4, h5, h6 {
+  font-family: "Shrikhand", "sans-serif";
+  font-size: 18px;
+}
+
+p, strong, span, i, a {
+  font-size: 18px;
+  font-family: "Roboto", "sans-serif";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.marg_b_20 {
+  margin-bottom: 20px;
+}
+
+.marg_t_20 {
+  margin-top: 20px;
+}
+
+.bloc {
+  display: block;
+}
+
+.main {
+  height: 1000px;
+  width: 100%;
+}
+
+.bar-navig {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #19547b;
+}
+
 /*header*/
 .header {
   height: 300px;
@@ -7,25 +132,35 @@
   justify-content: center;
   align-items: center;
 }
-.header .boxFoto {
+.header .box-photo {
   height: 70%;
   width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
-.header .boxFoto img {
+.header .box-photo img {
   height: 210px;
   width: 210px;
   object-fit: cover;
 }
-.header .boxTitre {
+.header .box-titre {
   height: 70%;
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-right: 90px;
 }
-.header .boxTitre .boxTitre-invisible {
+.header .box-titre p {
+  padding: 15px 0 15px 0;
+  font-weight: bold;
+  font-size: 26px;
+}
+.header .box-titre__invisible {
   height: 0;
   width: 0;
   visibility: hidden;

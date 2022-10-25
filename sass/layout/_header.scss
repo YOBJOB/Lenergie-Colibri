@@ -3,22 +3,27 @@
     @include dim(300px);
     @include flex;
     @include flex-layout;
-    .boxFoto {
+    .box-photo {
         @include dim(70%, 50%);
+        @include flex;
+    @include flex-layout;
         overflow: hidden;
         img {
             @include dim(210px, 210px);
             object-fit: cover;
         }
     }
-    .boxTitre{
+    .box-titre{
         @include dim(70%, 50%);
         @include flex(column);
         @include flex-layout;
-        .boxTitre-visible{
-
+        padding-right: 90px;
+        p{
+            padding: 15px 0  15px 0;
+            font-weight: bold;
+            font-size: 26px;
         }
-        .boxTitre-invisible{
+        &__invisible{
             @include dim(0, 0);
              visibility: hidden;
         }
