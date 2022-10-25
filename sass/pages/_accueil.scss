@@ -1,10 +1,12 @@
-.main{
+.main {
     @include dim(1000px);
 }
 
-.bar-navig{
-    @include dim(50px);
+.navig-ul {
+    @include dim(60px);
     @include flex;
     @include flex-layout;
-    background-color: $color-primary;
+    background-color: #19547b;
+   
+    padding: 0 20px 0 20px;
 }

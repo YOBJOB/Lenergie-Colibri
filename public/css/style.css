@@ -32,7 +32,7 @@ h3, h4, h5, h6 {
   font-size: 18px;
 }
 
-p, strong, span, i, a {
+p, strong, span, i, a, button {
   font-size: 18px;
   font-family: "Roboto", "sans-serif";
 }
@@ -87,7 +87,7 @@ h3, h4, h5, h6 {
   font-size: 18px;
 }
 
-p, strong, span, i, a {
+p, strong, span, i, a, button {
   font-size: 18px;
   font-family: "Roboto", "sans-serif";
 }
@@ -113,14 +113,15 @@ p, strong, span, i, a {
   width: 100%;
 }
 
-.bar-navig {
-  height: 50px;
+.navig-ul {
+  height: 60px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: #19547b;
+  padding: 0 20px 0 20px;
 }
 
 /*header*/
@@ -140,6 +141,7 @@ p, strong, span, i, a {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  padding-left: 163px;
 }
 .header .box-photo img {
   height: 210px;
@@ -153,7 +155,7 @@ p, strong, span, i, a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-right: 90px;
+  padding-right: 200px;
 }
 .header .box-titre p {
   padding: 15px 0 15px 0;
@@ -166,17 +168,31 @@ p, strong, span, i, a {
   visibility: hidden;
 }
 
-bouton-nav {
+.bouton-nav {
+  border-radius: 30px;
+  background-color: #1d6290;
   font-weight: bold;
   height: 50px;
-  width: 100%;
-  align-items: center;
-  border-left: solid black 2px;
+  width: 25%;
+  color: #ffd89b;
+  border: solid black 2px;
   box-shadow: 0px 10px 10px #d9d9d9;
 }
-bouton-nav:active, bouton-nav:hover {
+.bouton-nav:active, .bouton-nav:hover {
   box-shadow: 0px 10px 20px #a6a6a6;
   filter: brightness(1.1);
+}
+.bouton-nav a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.central-margin {
+  margin: 0 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

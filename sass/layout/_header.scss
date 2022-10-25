@@ -6,26 +6,27 @@
     .box-photo {
         @include dim(70%, 50%);
         @include flex;
-    @include flex-layout;
+        @include flex-layout;
         overflow: hidden;
+        padding-left: 163px;
         img {
             @include dim(210px, 210px);
             object-fit: cover;
         }
     }
-    .box-titre{
+    .box-titre {
         @include dim(70%, 50%);
         @include flex(column);
         @include flex-layout;
-        padding-right: 90px;
-        p{
-            padding: 15px 0  15px 0;
+        padding-right: 200px;
+        p {
+            padding: 15px 0 15px 0;
             font-weight: bold;
             font-size: 26px;
         }
-        &__invisible{
+        &__invisible {
             @include dim(0, 0);
-             visibility: hidden;
+            visibility: hidden;
         }
     }
 }
