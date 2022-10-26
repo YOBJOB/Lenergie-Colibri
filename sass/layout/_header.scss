@@ -3,14 +3,15 @@
     @include dim(300px);
     @include flex;
     @include flex-layout;
+    margin-bottom: 30px;
     .box-photo {
-        @include dim(70%, 50%);
+        @include dim(80%, 50%);
         @include flex;
         @include flex-layout;
         overflow: hidden;
         padding-left: 163px;
         img {
-            @include dim(210px, 210px);
+            @include dim(230px, 230px);
             object-fit: cover;
         }
     }
