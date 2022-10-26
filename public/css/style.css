@@ -326,6 +326,24 @@ p, strong, span, i, a, button {
   visibility: hidden;
 }
 
+.footer {
+  height: 230px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: #19547b;
+  padding-left: 140px;
+  color: #ffd89b;
+}
+.footer p {
+  color: #ffd89b;
+}
+.footer .margin-bottom {
+  margin-bottom: 20px;
+}
+
 .bouton-nav {
   border-radius: 30px;
   background-color: #1d6290;

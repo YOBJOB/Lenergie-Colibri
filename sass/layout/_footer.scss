@@ -1,0 +1,17 @@
+// footer
+
+.footer{
+    @include dim(230px);
+    @include flex(column);
+    @include flex-layout(center, start);
+    background-color: $color-primary;
+    padding-left: 140px;
+    color: $color-secondary;
+    p{
+        color: #ffd89b;
+    }
+    .margin-bottom{
+        margin-bottom: 20px;
+    }
+
+}
