@@ -9,6 +9,11 @@
     color: $color-secondary;
     p{
         color: #ffd89b;
+        a{
+            @include dim(100%,100%);
+            cursor: pointer;
+            color: $color-secondary;
+        }
     }
     .margin-bottom{
         margin-bottom: 20px;

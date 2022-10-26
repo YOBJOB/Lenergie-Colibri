@@ -340,6 +340,12 @@ p, strong, span, i, a, button {
 .footer p {
   color: #ffd89b;
 }
+.footer p a {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  color: #ffd89b;
+}
 .footer .margin-bottom {
   margin-bottom: 20px;
 }
