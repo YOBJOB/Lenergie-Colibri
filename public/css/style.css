@@ -228,11 +228,11 @@ p, strong, span, i, a, button {
   margin: 0 30px;
 }
 
-.aside {
+.article {
   width: 100%;
   padding: 50px 150px;
 }
-.aside .aside-titre {
+.article .article-titre {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,16 +240,16 @@ p, strong, span, i, a, button {
   font-weight: bold;
   margin-bottom: 50px;
 }
-.aside .aside-titre::after {
+.article .article-titre::after {
   width: 200px;
   content: "";
-  border: solid #19547b 3px;
+  border-top: solid #19547b 3px;
 }
-.aside .aside-paragraphe {
+.article .article-paragraphe {
   text-indent: 7%;
   text-align: justify;
 }
-.aside .bloc {
+.article .bloc {
   height: 600px;
   width: 100%;
   display: flex;
@@ -257,7 +257,7 @@ p, strong, span, i, a, button {
   justify-content: center;
   align-items: center;
 }
-.aside .bloc .bloc-photo {
+.article .bloc .bloc-photo {
   height: 500px;
   width: 50%;
   display: flex;
@@ -266,19 +266,88 @@ p, strong, span, i, a, button {
   align-items: center;
   overflow: hidden;
 }
-.aside .bloc .bloc-photo img {
+.article .bloc .bloc-photo img {
   height: 452px;
   width: 350px;
   object-fit: cover;
   padding: 0 30px;
 }
-.aside .bloc .central-margin {
+.article .bloc .central-margin {
   margin: 0 33px;
 }
-.aside .aside-citation {
+.article .article-citation {
   width: 100%;
   padding: 50px 0;
   font-weight: bold;
+}
+
+.so-main .so-titre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align-last: center;
+  font-weight: bold;
+}
+.so-main .so-titre::after {
+  width: 250px;
+  content: "";
+  border-top: solid #19547b 3px;
+}
+.so-main .so-art {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+.so-main .so-art .so-bloc-img {
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.so-main .so-art .so-bloc-img img {
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+  padding: 0 30px;
+}
+.so-main .so-art .so-bloc-p {
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.so-main .so-art .so-bloc-p p {
+  text-align: justify;
+  margin: 0 0 23px 0;
+}
+.so-main p {
+  text-align: center;
+}
+.so-main .so-bloc-img {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.so-main .so-bloc-img img {
+  height: 365px;
+  width: 500px;
+  object-fit: cover;
+  padding: 0 30px;
+  border-radius: 120px;
 }
 
 /*header*/

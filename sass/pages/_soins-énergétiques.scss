@@ -1,0 +1,54 @@
+.so-main {
+    .so-titre {
+        @include flex(column);
+        @include flex-layout;
+        text-align-last: center;
+        font-weight: bold;
+        &::after{
+            width: 250px;
+            content: "";
+            border-top: solid $color-primary 3px;
+        }
+    }
+    .so-art {
+        @include dim(600px, 100%);
+        @include flex;
+        @include flex-layout;
+        padding: 0 50px;
+        .so-bloc-img {
+            @include dim(500px, 50%);
+            @include flex;
+            @include flex-layout;
+            overflow: hidden;
+            img {
+                @include dim(400px, 500px);
+                object-fit: cover;
+                padding: 0 30px;
+            }
+        }
+        .so-bloc-p {
+            @include dim(500px, 50%);
+            @include flex(column);
+            @include flex-layout;
+            p {
+                text-align: justify;
+                margin: 0 0 23px 0;
+            }
+        }
+    }
+    p{
+        text-align: center;
+    }
+    .so-bloc-img {
+        @include dim(500px);
+        @include flex;
+        @include flex-layout;
+        overflow: hidden;
+        img {
+            @include dim(365px, 500px);
+            object-fit: cover;
+            padding: 0 30px;
+            border-radius: 120px;
+        }
+    }
+}
