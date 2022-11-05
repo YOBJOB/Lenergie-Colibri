@@ -16,14 +16,14 @@
         @include flex-layout;
         padding: 0 50px;
         .so-bloc-img {
-            @include dim(500px, 50%);
-            @include flex;
-            @include flex-layout;
+            @include dim(400px, 50%);
             overflow: hidden;
             img {
-                @include dim(400px, 500px);
+                @include flex;
+                @include flex-layout;
+                @include dim(90%, 70%);
                 object-fit: cover;
-                padding: 0 30px;
+                border-radius: 60px;
             }
         }
         .so-bloc-p {
@@ -47,8 +47,7 @@
         img {
             @include dim(365px, 500px);
             object-fit: cover;
-            padding: 0 30px;
-            border-radius: 120px;
+            border-radius: 60px;
         }
     }
 }
