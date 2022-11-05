@@ -1,5 +1,5 @@
 .navig-ul {
-    @include dim(70px);
+    @include dim(80px);
     @include flex;
     @include flex-layout(space-around);
     background-color: $color-primary;
