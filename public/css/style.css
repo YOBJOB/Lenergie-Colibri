@@ -108,6 +108,10 @@ p, strong, span, i, a, button {
   display: block;
 }
 
+body {
+  background-color: #f2f2f2;
+}
+
 .navig-ul {
   height: 80px;
   width: 100%;
@@ -115,7 +119,7 @@ p, strong, span, i, a, button {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #19547b;
+  background-color: #94f67b;
 }
 
 .article {
@@ -133,7 +137,7 @@ p, strong, span, i, a, button {
 .article .article-titre::after {
   width: 200px;
   content: "";
-  border-top: solid #19547b 3px;
+  border-top: solid #94f67b 3px;
 }
 .article .article-paragraphe {
   text-indent: 7%;
@@ -179,7 +183,7 @@ p, strong, span, i, a, button {
 .so-main .so-titre::after {
   width: 250px;
   content: "";
-  border-top: solid #19547b 3px;
+  border-top: solid #94f67b 3px;
 }
 .so-main .so-art {
   height: 600px;
@@ -238,10 +242,10 @@ p, strong, span, i, a, button {
 
 /*header*/
 .header {
-  height: 300px;
+  height: 450px;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
@@ -254,7 +258,6 @@ p, strong, span, i, a, button {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding-left: 163px;
 }
 .header .box-photo img {
   height: 230px;
@@ -268,7 +271,6 @@ p, strong, span, i, a, button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-right: 200px;
 }
 .header .box-titre p {
   padding: 15px 0 15px 0;
@@ -288,18 +290,18 @@ p, strong, span, i, a, button {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  background-color: #19547b;
+  background-color: #94f67b;
   padding-left: 140px;
-  color: #ffd89b;
+  color: #ff9d00;
 }
 .footer p {
-  color: #ffd89b;
+  color: #ff9d00;
 }
 .footer p a {
   height: 100%;
   width: 100%;
   cursor: pointer;
-  color: #ffd89b;
+  color: #ff9d00;
 }
 .footer .margin-bottom {
   margin-bottom: 20px;
@@ -307,15 +309,14 @@ p, strong, span, i, a, button {
 
 .bouton-nav {
   border-radius: 30px;
-  background-color: #1d6290;
+  background-color: #a7f893;
   font-weight: bold;
   height: 50px;
   width: 19%;
   border: solid black 2px;
-  box-shadow: 0px 10px 10px #d9d9d9;
 }
 .bouton-nav:hover {
-  box-shadow: 0px 10px 20px #a6a6a6;
+  box-shadow: 0px 2px 20px #289a0b;
   filter: brightness(1.1);
 }
 .bouton-nav a {
@@ -325,7 +326,7 @@ p, strong, span, i, a, button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: #ffd89b;
+  color: #ff9d00;
   font-size: 23px;
 }
 

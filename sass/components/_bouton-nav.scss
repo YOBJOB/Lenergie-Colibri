@@ -5,9 +5,9 @@
     font-weight: bold; 
     @include dim(50px, 19%);
     border: solid $color-contrast-B 2px;
-    box-shadow: 0px 10px 10px darken($color-back, 10%);
+    // box-shadow: 0px 10px 10px darken($color-back, 10%);
     &:hover{
-        box-shadow: 0px 10px 20px darken($color-back, 30%);
+        box-shadow: 0px 2px 20px darken($color-primary, 40%);
         filter: brightness(1.1);
     }
     a{

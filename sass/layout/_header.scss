@@ -1,7 +1,9 @@
 /*header*/
 .header {
-    @include dim(300px);
-    @include flex;
+    // @include dim(300px);
+    @include dim(450px);
+    // @include flex;
+    @include flex(column);
     @include flex-layout;
     margin-bottom: 30px;
     .box-photo {
@@ -9,7 +11,7 @@
         @include flex;
         @include flex-layout;
         overflow: hidden;
-        padding-left: 163px;
+        // padding-left: 163px;
         img {
             @include dim(230px, 230px);
             object-fit: cover;
@@ -19,7 +21,7 @@
         @include dim(70%, 50%);
         @include flex(column);
         @include flex-layout;
-        padding-right: 200px;
+        // padding-right: 200px;
         p {
             padding: 15px 0 15px 0;
             font-weight: bold;
