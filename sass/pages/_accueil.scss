@@ -6,6 +6,7 @@ body{
     @include flex;
     @include flex-layout(space-around);
     background-color: $color-primary;
+    border-radius: 20px;
 }
 
 .article {

@@ -120,6 +120,7 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: #99e2d0;
+  border-radius: 20px;
 }
 
 .article {
