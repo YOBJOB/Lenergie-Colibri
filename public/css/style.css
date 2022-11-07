@@ -119,7 +119,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #99e2d0;
+  background-color: #94f67b;
   border-radius: 20px;
 }
 
@@ -138,7 +138,7 @@ body {
 .article .article-titre::after {
   width: 200px;
   content: "";
-  border-top: solid #99e2d0 3px;
+  border-top: solid #94f67b 3px;
 }
 .article .article-paragraphe {
   text-indent: 7%;
@@ -184,7 +184,7 @@ body {
 .so-main .so-titre::after {
   width: 250px;
   content: "";
-  border-top: solid #99e2d0 3px;
+  border-top: solid #94f67b 3px;
 }
 .so-main .so-art {
   height: 600px;
@@ -291,18 +291,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  background-color: #99e2d0;
+  background-color: #94f67b;
   padding-left: 140px;
-  color: #ff79da;
+  color: #ff9d00;
 }
 .footer p {
-  color: #ff79da;
+  color: #ff9d00;
 }
 .footer p a {
   height: 100%;
   width: 100%;
   cursor: pointer;
-  color: #ff79da;
+  color: #ff9d00;
 }
 .footer .margin-bottom {
   margin-bottom: 20px;
@@ -310,14 +310,14 @@ body {
 
 .bouton-nav {
   border-radius: 30px;
-  background-color: #ade8d9;
+  background-color: #a7f893;
   font-weight: bold;
   height: 50px;
   width: 19%;
   border: solid black 2px;
 }
 .bouton-nav:hover {
-  box-shadow: 0px 2px 20px #278870;
+  box-shadow: 0px 2px 20px #289a0b;
   filter: brightness(1.05);
 }
 .bouton-nav a {
@@ -327,7 +327,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: #ff79da;
+  color: #ff9d00;
   font-size: 23px;
 }
 
