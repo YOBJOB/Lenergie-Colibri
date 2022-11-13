@@ -14,8 +14,10 @@
     @include dim(100%);
     @include flex;
     @include flex-layout;
-    color: $color-secondary;
-    font-size: 23px;
+    font-size: 30px;
+    font-family: 'EB+Garamond', 'Roboto', 'sans-serif';
+    font-style : italic;
+    font-weight: bold;
     }    
 }
 

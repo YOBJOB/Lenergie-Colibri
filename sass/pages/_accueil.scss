@@ -1,48 +1,49 @@
-body{
+body {
     background-color: $color-primary;
 }
-.navig-ul {
-    @include dim(80px);
-    @include flex;
-    @include flex-layout(space-around);
-    background-color: $color-primary;
-    border-radius: 20px;
+.bar-navig {
+    margin-bottom: 40px;
+    .navig-ul {
+        @include dim(80px);
+        @include flex;
+        @include flex-layout(space-around);
+        background-color: $color-primary;
+        border-radius: 20px;
+    }
 }
-
 .article {
     width: 100%;
-    padding: 30px;
     .article-titre {
         @include flex(column);
         @include flex-layout;
         font-weight: bold;
         margin-bottom: 50px;
-        &::after{
+        &::after {
             width: 200px;
             content: "";
             border-top: solid $color-primary 3px;
         }
     }
-    
+
     .article-paragraphe {
+        position: absolute;
         text-indent: 7%;
         text-align: justify;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 30px;
+        @include dim(150px, 75%);
+        bottom: 170px;
     }
-
-    .bloc {
-        @include dim(660px, 100%);
+    .bloc-photo {
+        @include dim(1021px, 100%);
         @include flex;
-        @include flex-layout(space-between);
-        .bloc-photo {
-            @include dim(600px, 31%);
-            @include flex;
-            @include flex-layout;
-            overflow: hidden;
-            img {
-                @include dim(100%);
-                object-fit: cover;
-                border-radius: 30px;
-            }
+        @include flex-layout;
+        overflow: hidden;
+        img {
+            @include dim(100%);
+            object-fit: cover;
+            border-radius: 30px;
         }
     }
 

@@ -4,6 +4,7 @@
     @include flex;
     @include flex-layout;
     margin-bottom: 30px;
+    border-bottom: 1px solid;
     .box-photo {
         @include dim(80%, 50%);
         @include flex;
