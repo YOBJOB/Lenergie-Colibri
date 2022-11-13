@@ -1,5 +1,5 @@
 body{
-    background-color: #f1debc;
+    background-color: $color-primary;
 }
 .navig-ul {
     @include dim(80px);
