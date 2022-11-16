@@ -25,17 +25,9 @@ body {
         }
     }
 
-    .article-paragraphe {
-        position: absolute;
-        text-indent: 7%;
-        text-align: justify;
-        font-style: italic;
-        font-weight: bold;
-        font-size: 30px;
-        @include dim(150px, 75%);
-        bottom: 170px;
-    }
+    
     .bloc-photo {
+        position: relative;
         @include dim(1021px, 100%);
         @include flex;
         @include flex-layout;
@@ -44,6 +36,16 @@ body {
             @include dim(100%);
             object-fit: cover;
             border-radius: 30px;
+        }
+        .article-paragraphe {
+            position: absolute;
+            text-indent: 7%;
+            text-align: justify;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 30px;
+            @include dim(150px, 75%);
+            top: 97px;
         }
     }
 

@@ -142,18 +142,8 @@ body {
   content: "";
   border-top: solid #EAD1DC 3px;
 }
-.article .article-paragraphe {
-  position: absolute;
-  text-indent: 7%;
-  text-align: justify;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 30px;
-  height: 150px;
-  width: 75%;
-  bottom: 170px;
-}
 .article .bloc-photo {
+  position: relative;
   height: 1021px;
   width: 100%;
   display: flex;
@@ -167,6 +157,17 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 30px;
+}
+.article .bloc-photo .article-paragraphe {
+  position: absolute;
+  text-indent: 7%;
+  text-align: justify;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  height: 150px;
+  width: 75%;
+  top: 97px;
 }
 .article .article-citation {
   width: 100%;
