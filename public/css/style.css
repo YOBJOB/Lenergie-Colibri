@@ -175,6 +175,29 @@ body {
   font-weight: bold;
 }
 
+.main-titre {
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-bloc-photo {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.main-bloc-photo img {
+  height: 450px;
+  width: 875px;
+  object-fit: cover;
+}
+
 .so-main .so-titre {
   display: flex;
   flex-direction: column;

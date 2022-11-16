@@ -1,0 +1,16 @@
+.main-titre{
+    font-size: 50px;
+    @include flex;
+    @include flex-layout;
+}
+
+.main-bloc-photo {
+    @include dim(450px, 100%);
+    @include flex;
+    @include flex-layout;
+    overflow: hidden;
+    img {
+        @include dim(450px, 875px);
+        object-fit: cover;
+    }
+}
