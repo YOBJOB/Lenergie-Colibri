@@ -24,8 +24,6 @@ body {
             border-top: solid $color-primary 3px;
         }
     }
-
-    
     .bloc-photo {
         position: relative;
         @include dim(1021px, 100%);
@@ -48,7 +46,6 @@ body {
             top: 97px;
         }
     }
-
     .article-citation {
         width: 100%;
         padding: 50px 0;
